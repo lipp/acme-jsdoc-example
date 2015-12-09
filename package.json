@@ -1,0 +1,24 @@
+{
+  "name": "acme-jsdoc-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lipp/acme-jsdoc-example.git"
+  },
+  "keywords": [
+    "acme",
+    "coyote",
+    "tools"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lipp/acme-jsdoc-example/issues"
+  },
+  "homepage": "https://github.com/lipp/acme-jsdoc-example"
+}
