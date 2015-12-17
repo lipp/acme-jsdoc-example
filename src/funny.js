@@ -33,7 +33,8 @@ Coyote.prototype.setTool = function(tool) {};
 
 /**
  * Start skting on rails.
- * @param {number} [speed=50] in mps
+ * @param {number|string} [speed=50] in mps
+ * @private
  */
 Coyote.prototype.skate = function(speed) {};
 
