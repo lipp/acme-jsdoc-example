@@ -1,0 +1,5 @@
+name: acme-jsdoc-example
+dir: src
+flavor: jsdoc
+articles:
+  - About: README.md
