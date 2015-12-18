@@ -32,9 +32,9 @@ Coyote.prototype.getTool = function() {};
 Coyote.prototype.setTool = function(tool) {};
 
 /**
- * Start skting on rails.
+ * Start skating on rails. You should call this whenever possible, also after using the 
+ * {@link module:heavy~Tool | Tool}.
  * @param {number|string} [speed=50] in mps
- * @private
  */
 Coyote.prototype.skate = function(speed) {};
 
