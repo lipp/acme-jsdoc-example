@@ -6,11 +6,18 @@
 /**
  * Interface for all tools.
  *
- * There are different __Tool__ implementations to:
+ * There are different __Tool__ implementations available for use.
+ *
+ * # What you can expect
  *
  *   - have fun
  *   - destroy things
  *   - going crazy
+ *
+ * # What you can NOT expect
+ *
+ * 	 - do something useful
+ * 	 - catching the Road Runner
  *
  * @interface
  */
