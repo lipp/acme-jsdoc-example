@@ -5,9 +5,16 @@
 
 /**
  * Interface for all tools.
- * @interface 
+ *
+ * There are different __Tool__ implementations to:
+ *
+ *   - have fun
+ *   - destroy things
+ *   - going crazy
+ *
+ * @interface
  */
-var Tool = function() {};
+var Tool = function () {}
 
 /**
  * Enum for performing action.
@@ -15,10 +22,10 @@ var Tool = function() {};
  * @enum {number}
  */
 Tool.actionMode = {
-    SLOW: 0,
-    MEDIUM: 1,
-    FAST: 2
-};
+  SLOW: 0,
+  MEDIUM: 1,
+  FAST: 2
+}
 
 /**
  * Perform the tool associated action
@@ -27,7 +34,7 @@ Tool.actionMode = {
  * @function
  * @param {module:heavy~Tool.actionMode} [mode=Tool.actionMode.MEDIUM] The mode to use to perform the action
  */
-Tool.prototype.action = function(mode) {};
+Tool.prototype.action = function (mode) {}
 
 /**
  * Create a hammer tool, to smash stuff.
@@ -35,14 +42,14 @@ Tool.prototype.action = function(mode) {};
  * @class
  * @implements {Tool}
  */
-var Hammer = function() {};
+var Hammer = function () {}
 
 /**
  * Smash all near stuff.
  *
  * @param {actionMode} [mode=heavy~actionMode.MEDIUM] The mode to use to perform the action
  */
-Hammer.prototype.action = function(mode) {};
+Hammer.prototype.action = function (mode) {}
 
 /**
  * Create a bomb tool, to explode stuff.
@@ -50,11 +57,11 @@ Hammer.prototype.action = function(mode) {};
  * @class
  * @implements {Tool}
  */
-var Bomb = function() {};
+var Bomb = function () {}
 
 /**
  * Explode on the spot.
  *
  * @param {actionMode} [mode=actionMode.MEDIUM] The mode to use to perform the action
  */
-Bomb.prototype.action = function(mode) {};
+Bomb.prototype.action = function (mode) {}
