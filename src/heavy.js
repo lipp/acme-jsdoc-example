@@ -21,8 +21,8 @@
  *
  * ## Example
  *
- *    coyote.setTool(...)
- *    coyote.getTool().action()
+ *     coyote.setTool(...)
+ *     coyote.getTool().action()
  *
  * @interface
  */
