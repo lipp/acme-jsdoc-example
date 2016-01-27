@@ -10,14 +10,19 @@
  *
  * # What you can expect
  *
- *   - have fun
- *   - destroy things
- *   - going crazy
+ * - have fun
+ * - destroy things
+ * - going crazy
  *
  * # What you can NOT expect
  *
- * 	 - do something useful
- * 	 - catching the Road Runner
+ * - do something useful
+ * - catching the Road Runner
+ *
+ * ## Example
+ *
+ *    coyote.setTool(...)
+ *    coyote.getTool().action()
  *
  * @interface
  */
