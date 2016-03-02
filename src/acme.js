@@ -5,25 +5,30 @@
 /**
  * @constant {string}
  * @default
+ *
+ * @example
+ * // Testing toxicdev
+ * var numbers = require('numbers')
+ * numbers.calculus.Riemann(Math.sin, -2, 4, 200)
  */
-var greet = 'who reads this is stupid';
+var greet = 'who reads this is stupid'
 
 /**
  * @constant {Object}
  * @default
  */
 var config = {
-    company: 'ACME TM'
-};
+  company: 'ACME TM'
+}
 
 /**
  * Super useful function.
  * @function
  */
-var superFunc = function() {};
+var superFunc = function () {}
 
 module.exports = {
-    funny: require('./funny'),
-    heavy: require('./heavy'),
-    greet: greet
-};
+  funny: require('./funny'),
+  heavy: require('./heavy'),
+  greet: greet
+}
