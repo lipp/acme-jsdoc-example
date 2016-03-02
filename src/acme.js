@@ -12,7 +12,7 @@
  * var numbers = require('numbers')
  * numbers.calculus.Riemann(Math.sin, -2, 4, 200)
  */
-var greet = 'who reads this is stupid'
+var greet = 'Hello folks!'
 
 /**
  * @constant {Object}
