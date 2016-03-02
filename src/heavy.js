@@ -52,6 +52,7 @@ Tool.prototype.action = function (mode) {}
  * Create a hammer tool, to smash stuff.
  *
  * @class
+ * @since 1.0.1
  * @implements {Tool}
  */
 var Hammer = function () {}
