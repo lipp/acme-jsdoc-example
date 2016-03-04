@@ -6,8 +6,7 @@
  * @constant {string}
  * @default
  *
- * @live
- * @example
+ * @playground
  * // Testing tonicdev
  * var numbers = require('numbers')
  * numbers.calculus.Riemann(Math.sin, -2, 4, 200)
