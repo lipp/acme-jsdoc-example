@@ -3,13 +3,18 @@
  */
 
 /**
+ * This is just a constant.
+ * You can attach interactive playgrounds with the @playground tag.
+ * You can require any npm module and write really programs.
+ *
  * @constant {string}
  * @default
  *
  * @playground
  * // Testing tonicdev
  * var numbers = require('numbers')
- * numbers.calculus.Riemann(Math.sin, -2, 4, 200)
+ * var x = numbers.calculus.Riemann(Math.sin, -2, 4, 200)
+ * x++
  */
 var greet = 'Hello folks!'
 
