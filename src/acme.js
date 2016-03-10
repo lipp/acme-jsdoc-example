@@ -5,7 +5,7 @@
 /**
  * This is just a constant.
  * You can attach interactive playgrounds with the @playground tag.
- * You can require any npm module and write really programs.
+ * You can require any npm module and write real programs.
  *
  * @constant {string}
  * @default
