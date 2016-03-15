@@ -2,6 +2,5 @@
 
 [![API Doc](https://doclets.io/lipp/acme-jsdoc-example/master.svg)](https://doclets.io/lipp/acme-jsdoc-example/master)
 
-You can add markdown articles.
+You can add markdown articles. Just add them to your `.doclets.yml` file
 
-more coming soon .... 
