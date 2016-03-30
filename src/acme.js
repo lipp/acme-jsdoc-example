@@ -27,6 +27,15 @@ var config = {
 }
 
 /**
+ * This should not show up.
+ *
+ * @constant {Number}
+ * @ignore
+ *
+ */
+var hidden = 123.222
+
+/**
  * Super useful function. See also {@link greet} and [the TOOLS] {@link module:heavy~Tool}.
  * If you don't know where to start, use {@link https://google.com|Google}.
  * @function
