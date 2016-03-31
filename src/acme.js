@@ -48,6 +48,27 @@ var hidden = 123.222
  */
 var superFunc = function () {}
 
+/**
+ * From crawlkit.
+ *
+ * A method to get a function from that is evaluated within the web page and returns a result.
+ *
+ * The returned function should call back with an result of any serializable kind by calling
+ * `window.callPhantom(error, result)`.
+ * If your method did not provoke an error, pass null as the first argument.
+ *
+ * The time out of the returned function is controlled via {@link greet}.
+ *
+ * The returned function will be called immediately after page load, any defined {@link config}
+ * and other {@link greets}s added before.
+ *
+ * @see [src/acme.js]{@link
+ * https://github.com/lipp}
+ * for an example of a valid returned runnable function.
+ * @return {Function} A function to be evaluated within the crawled webpage
+ */
+var fromCrawlkit = function () {}
+
 module.exports = {
   funny: require('./funny'),
   heavy: require('./heavy'),
