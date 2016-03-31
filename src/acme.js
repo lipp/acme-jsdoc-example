@@ -38,6 +38,8 @@ var hidden = 123.222
 /**
  * Super useful function. See also {@link greet} and [the TOOLS] {@link module:heavy~Tool}.
  * If you don't know where to start, use {@link https://google.com|Google}.
+ *
+ * {@link greet} is actually very smart.
  * @function
  * @see {@link greet}
  * @see greet
