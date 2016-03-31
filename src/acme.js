@@ -39,6 +39,10 @@ var hidden = 123.222
  * Super useful function. See also {@link greet} and [the TOOLS] {@link module:heavy~Tool}.
  * If you don't know where to start, use {@link https://google.com|Google}.
  * @function
+ * @see {@link greet}
+ * @see greet
+ * @see {@link config} for further information.
+ * @see {@link http://github.com|GitHub}
  */
 var superFunc = function () {}
 
