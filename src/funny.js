@@ -13,6 +13,8 @@
  *  @param {Object} [options = {defaultTool: 'hammer'}] Optional config params.
  *  @param {string} [options.defaultTool] The default tool to use
  *  @param {number} [options.age] The age in years
+ *  @param {Object} [options.sub] very special params
+ *  @param {number} [options.sub.delta] Some crazy delta
  */
 var Coyote = function(name, options) {
 
