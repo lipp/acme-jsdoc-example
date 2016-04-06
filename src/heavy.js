@@ -89,3 +89,10 @@ Bomb.prototype.action = function (mode) {}
  * @deprecated
  */
 var Ball = function(){}
+
+/**
+ * A lame horn class. Not so funny.
+ * @class
+ * @deprecated 1.3
+ */
+var Horn = function(){}
