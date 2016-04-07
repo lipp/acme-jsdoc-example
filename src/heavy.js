@@ -83,7 +83,7 @@ Bomb.prototype.action = function (mode) {}
 /**
  * A lame ball class. Not so much fun.
  * @class
- * @param {string} options.dots[] The dot colors
+ * @param {string} options.dots The dot colors
  * @param {string[]} options.dirt The dirt features
  * @param {number} options.physics[].weight The weigth
  * @deprecated
