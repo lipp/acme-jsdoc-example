@@ -47,7 +47,7 @@ Tool.actionMode = {
 
 /**
  * Turns this tool into a nice jQuery plugin
- * @returns {external:jQuery.fn} The new plugin instance
+ * @returns {external:"jQuery.fn"} The new plugin instance
  */
 Tool.prototype.tojQueryPlugin = function () {}
 
