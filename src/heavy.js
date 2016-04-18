@@ -4,6 +4,12 @@
  */
 
 /**
+ * The jQuery plugin namespace.
+ * @external "jQuery.fn"
+ * @see {@link http://learn.jquery.com/plugins/|jQuery Plugins}
+ */
+
+/**
  * Interface for all tools.
  *
  * There are different __Tool__ implementations available for use.
@@ -38,6 +44,12 @@ Tool.actionMode = {
   MEDIUM: 1,
   FAST: 2
 }
+
+/**
+ * Turns this tool into a nice jQuery plugin
+ * @returns {external:jQuery.fn} The new plugin instance
+ */
+Tool.prototype.tojQueryPlugin = function () {}
 
 /**
  * Perform the tool associated action
@@ -79,7 +91,6 @@ var Bomb = function () {}
  */
 Bomb.prototype.action = function (mode) {}
 
-
 /**
  * A lame ball class. Not so much fun.
  * @class
@@ -88,11 +99,11 @@ Bomb.prototype.action = function (mode) {}
  * @param {number} options.physics[].weight The weigth
  * @deprecated
  */
-var Ball = function(){}
+var Ball = function () {}
 
 /**
  * A lame horn class. Not so funny.
  * @class
  * @deprecated 1.3
  */
-var Horn = function(){}
+var Horn = function () {}
