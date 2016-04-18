@@ -9,7 +9,7 @@
  * @class
  * @classdesc A coyote is a real funny animal, which likes to place bombs
  *  or to skate on rails with rockets.
- *  @param {string} name The name like 'chuck' or 'berry'
+ *  @param {!string} name The name like 'chuck' or 'berry'
  *  @param {Object} [options = {defaultTool: 'hammer'}] Optional config params.
  *  @param {string} [options.defaultTool] The default tool to use
  *  @param {number} [options.age] The age in years
