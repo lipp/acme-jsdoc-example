@@ -5,5 +5,3 @@
 You can add markdown articles. Just add them to your `.doclets.yml` file. 
 The Api view will get a search bar and an index table. Check @doclets_io on Twitter. Add your JSDoc commented project.
 
-This is from PR test.
-
