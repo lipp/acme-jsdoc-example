@@ -14,3 +14,5 @@ jhg
 This is some more test stuff.
 fff
 BRBR
+
+TODAY IS WORLD EMOJI DAY!
