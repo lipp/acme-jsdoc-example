@@ -1,3 +1,7 @@
 dir: src
+branches:
+  - master
+  - dev
+  - add-to-doclets
 articles:
   - About: README.md
